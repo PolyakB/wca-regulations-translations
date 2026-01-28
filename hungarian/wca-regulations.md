@@ -1,6 +1,6 @@
-# <wca-title>WCA Szabályzat 2016
+# <wca-title>WCA Szabályzat
 
-<version>Verzió: 2016. április 18.
+<version>Verzió: 2026. január 1.
 
 
 ## Megjegyzések
@@ -9,33 +9,42 @@
 
 Ez egy nem hivatalos fordítás, amely csupán segítséget nyújt a magyar versenyzőknek a WCA Szabályzat értelmezésében. Hasznos lehet, de a fordítás hitelessége nem garantált. Az eredeti, angol nyelvű WCA Szabályzat és ezen fordítás közötti bármilyen eltérés esetén az eredeti, angol nyelvű WCA Szabályzat a mérvadó.
 
-Amennyiben bármilyen jellegű hibát észlel a fordításban, kérjük, hogy jelezze a hungarianopen.info@gmail.com e-mail címen.
-
-### WCA Szabályzat és Útmutató
+### WCA Szabályzat
 
 A WCA Szabályzat teljes mértékben tartalmazza a World Cube Associaton (továbbiakban WCA) által hivatalosnak nyilvánított versenyeken alkalmazott szabályokat.
-A WCA Szabályzatot kiegészíti a [WCA Útmutató](guidelines:top). A WCA Szabályzatot teljes dokumentumnak kell tekinteni, az Útmutató csak további pontosításokkal és magyarázatokkal szolgál.
+Korábban, a 2013. január 1. és 2025. január 1. közötti kiadásokban, a WCA Szabályzat szét volt bontva WCA Szabályzatra és WCA Útmutatóra. A két dokumentum tartalma össze lett vonva a WCA Szabályzatban a 2025. július 17-i kiadásban.
 
-### Szóhasználat
-
-Az eredeti, angol nyelvű szövegben az olvashatóság könnyebbé tétele érdekében minden esetben a „he” névmást alkalmazták, de „she or he”-ként kell értelmezni.
-A „must”, „must not”, „should”, „should not” és „may” szavak az [RFC 2119-szerint](https://www.ietf.org/rfc/rfc2119.txt) értelmezendőek.
+### Wording
+A "must", "must not", "should", "should not" és "may" szavak az [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt) szerint értelmezendőek.
 
 ### Információk az interneten
-
-A WCA weboldala: [www.worldcubeassociation.org](http://www.worldcubeassociation.org/)
-Az eredeti WCA Szabályzat elérhetősége: [www.worldcubeassociation.org/regulations](http://www.worldcubeassociation.org/regulations/)
-A WCA Szabályzat [PDF formátumban](link:pdf).
+World Cube Association weboldala: [www.worldcubeassociation.org](https://www.worldcubeassociation.org/)
+A WCA Szabályzat eredeti forrása: [www.worldcubeassociation.org/regulations](https://www.worldcubeassociation.org/regulations/)
+WCA Szabályzat [PDF formátumban](link:pdf)
 
 ### Források
+Development of the WCA Regulations is public [on GitHub](https://github.com/thewca/wca-regulations) and the discussion is public [on the WCA Forum](https://forum.worldcubeassociation.org/c/regulations).
 
-A WCA Szabályzat és Útmutató fejlesztése érthető a [GitHub-on](https://github.com/thewca/wca-documents).
+A WCA Szabályzat fejlesztése publikus, elérhető [GitHub-on](https://github.com/thewca/wca-regulations) továbbá a megbeszélések is nyilvánosak a [WCA Fórumon](https://forum.worldcubeassociation.org/c/regulations).
 
-### Kapcsolat
+### Kpacsolat
+For questions and feedback, please contact the [WCA Regulations Committee (WRC)](mailto:wrc@worldcubeassociation.org).
 
-Kérdésekkel és visszajelzésekkel a [WCA Regulations Commitee-t (WRC)](http://www.worldcubeassociation.org/contact-information) kell keresni.
+Kérdésekkel és visszajelzéssel a [WCA Regulations Committee-t (WRC)](mailto:wrc@worldcubeassociation.org) kell keresni.
 
-## [Tartalom](regulations:contents)
+### Címkék
+
+Néhány Szabály a jobb érthetőség miatt az alábbi címkék egyikével vannak osztályozva. Megjegyzés: ezek a címkék metadataként kezelendők, nem a leírás fontosságát osztályozzák.
+
+- <label>[KIEGÉSZÍTÉS] Kiegészítő információ más Szabályok kiegészítésére.
+- <label>[PONTOSÍTÁS] Olyan információk, amelyek a Szabály értelmezésekor felmerülő kérdéseket segít megválaszolni.
+- <label>[MAGYARÁZAT] Olyan információ amely pontosítja a Szabály szándékát.
+- <label>[AJÁNLÁS] Nem szigorúan kötelező dolgok, viszont lehetőség szerint végre kell hajtani.
+- <label>[EMLÉKEZTETŐ] Olyan információk, amelyek már máshol említve voltak, de a jelentőségük miatt fontos a megismétlésük.
+- <label>[PÉLDA] Egy példa a Szabály alkalmazására.
+
+
+## <contents> [Tartalom](regulations:contents)
 
 Megjegyzés: A Szabályzat változtatásával a Cikkek és a Szabályzat számozása nem változik, így hiányosságok lehetnek a számozásban.
 
@@ -46,30 +55,29 @@ Megjegyzés: A Szabályzat változtatásával a Cikkek és a Szabályzat számoz
 
 - 1a) Minden versenyen részt kell vennie: egy WCA delegáltnak, egy szervező csapatnak (ami egy vagy több személyből áll), illetve bíróknak, keverőknek és adatrögzítőknek.
 - 1b) A szervező csapat felelős a verseny előtti, közbeni és utáni logisztikai feladatok ellátásáért.
-- 1c) A WCA delegált átruházhat feladatokat a szervező csapat tagjaira, de ő felelős a következő feladatok elvégzéséért:
-    - 1c1) Jelentés készítése és elküldése a WCA Board-nak a WCA Szabályzat betartásáról, a verseny teljes lefolyásáról, illetve az esetleges incidensekről. A jelentést a verseny időpontjától számított egy héten belül be kell nyújtani.
-    - 1c3) A verseny eredményeinek elküldése a WCA Results Team-nek, a verseny időpontjától számított egy héten belül.
-        - 1c3a) A verseny során használt minden keverési algoritmust az eredményekkel együtt el kell küldeni a WCA Results Teamnek.
-        - 1c3b) A keverési algoritmusokat el kell látni a megfelelő címkékkel - versenyszám, forduló, csoport - amelyben használva voltak.
-    - 1c4) Az eredmények korrekciójának elküldése a WCA Board-nak.
-    - 1c5) Jelentés küldése a többi hivatalos személyről, amennyiben szükséges.
-    - 1c6) A versenyszámok, formátumok jóváhagyása a verseny megkezdése előtt, és ha a szükséges a verseny közben is.
-    - 1c7) Döntés versenyzők kizárásáról a verseny időtartama alatt.
-    - 1c8) A keverési algoritmusok biztosítása.
-    - 1c9) Döntés az időbeosztásban történő változtatásokról. Amennyiben ez szükséges, minden versenyzőt tájékoztatni kell a történt változtatásokról.
-    - 1c10) Biztosítani a WCA Szabályzat egy példányának elérhetőségét a versenyen.
-- 1e) Minden versenyszámnak rendelkeznie kell legalább egy bíróval.
+- 1c) A WCA Delegált felelős azért, hogy a verseny megfeleljen a WCA Szabályzatnak, valamint a WCA irányelveinek és követelményeinek. A WCA Delegált átruházhat bizonyos feladatokat a szervező csapat valamely tagjára, de a felelősséget ezen feladatok elvégzéséért továbbra is ő viseli.
+- 1c+) [PONTOSÍTÁS] If there are multiple WCA Delegates designated for the competition, "the WCA Delegate" refers to any of them. "The WCA Delegate" also refers to anyone appointed by a designated WCA Delegate for a relevant responsibility of the WCA Delegate for the competition.
+Ha több WCA Delegált van kijelölve a versenyre, akkor a "WCA Delegált" bármelyikre vonatkozik. A "WCA Delegált" azokat a személyeket is jelenti, akiket a kijelölt WCA Delegált bízott meg a versenyre kijelölt WCA Delegált releváns feladatkörével.
+- 1c++) [PONTOSÍTÁS] A WCA Delegáltak részt vehetnek a versenyen anélkül, hogy a versenyre kijelölt WCA Delegált szerepét betöltse.
+A "WCA Delegált" nem vonatkozik rájuk, kivéve ha a versenyre kijelölt WCA Delegált megbízta egy releváns feladatkörrel (lásd [Szabályzat 1c+](regulations:regulation:1c+)).
+- 1e) Minden versenyszámnak rendelkeznie kell egy vagy több bíróval.
     - 1e1) A bíró felelős a versenyszám követelményeinek betartásáért.
-        - 1e1a) A bíró egyidejűleg több versenyzőt is bírálhat a WCA delegált beleegyezésével, amennyiben biztosítani tudja a WCA szabályok betartását ezen idő alatt.
-    - 1e2)Az arra képes versenyzőknek készen kell állniuk bíráskodni, amennyiben a szervező csapatnak szüksége van a segítségére. Csak megfelelő, a WCA delegált által elfogadott indokkal lehet megtagadni. (pl. az adott versenyszámra vonatkozó szabályok ismeretének hiánya) Büntetés: kizárás a versenyből (lásd [Szabályzat 2k](regulations:regulation:2k)).
-- 1f) Minden versenyszámnak rendelkeznie kell legalább egy keverővel. Kivétel: Legkevesebb mozdulattal való kirakás (FMC).
-    - 1f1) A keverő alkalmazza a keverési algoritmust, így készítve elő a játékokat a kirakásra.
-    - 1f2) Az arra képes versenyzőknek készen kell állniuk keverni, amennyiben a szervező csapatnak szüksége van a segítségükre. Csak megfelelő, a WCA delegált által elfogadott indokkal lehet megtagadni. (pl. az adott versenyszámra vonatkozó keverési szabályok ismeretének hiánya) Büntetés: kizárás a versenyből (lásd [Szabályzat 2k](regulations:regulation:2k)).
-- 1g) Minden versenyszámnak rendelkeznie kell legalább egy adatrögzítővel.
-    - 1g1) Az adatrögzítő felelős az eredmények rögzítéséért, összeállításáért.
-    - 1g2) A pontkártyán történő bármely változtatáshoz szükséges a WCA delegált engedélye.
-- 1h) Egy versenyszám adott fordulójában a versenyzőket csoportokba lehet osztani.
-    - 1h1) Egy adott forduló versenyzői nem keverhetnek/bíráskodhatnak az adott fordulóban, a saját csoportjukban, amíg nem bejezték be az összes kirakásukat a fordulóban. A WCA delegált engedélyével ez módosítható, amennyiben a szervező csapat biztosítja, hogy nem láthatják egyik keverésüket sem, amelyet még nem teljesítettek.
+        - 1e1a) A bíró - a WCA Delegált jóváhagyásával - egyidejűleg több versenyzőt is bírálhat, amennyiben biztosítani tudja a WCA szabályok betartását.
+    - 1e2) Minden versenyzőknek rendelkezésre kell állnia bírálni. A bírálás alól - a WCA Delegált jóváhagyásával - csak nyomós okkal kaphat valaki felmentést (pl. az adott játék ismeretének hiánya). Büntetés: kizárás a versenyszámból (lásd [Szabályzat 2k](regulations:regulation:2k)).
+- 1f) Minden versenyszámnak rendelkeznie kell egy vagy több keverővel. Kivétel: 3x3x3 Legkevesebb forgatás.
+    - 1f1) A keverő alkalmazza a keverési algoritmust, így készítve elő a játékokat a kísérletre. (see [Szabályzat A2](regulations:regulation:A2)).
+    - 1f2) Minden versenyzőknek rendelkezésre kell állnia keverni. A keverés alól - a WCA Delegált jóváhagyásával - csak nyomós okkal kaphat valaki felmentést (pl. az adott játék ismeretének hiánya). Büntetés: kizárás a versenyszámból  (see [Regulation 2k](regulations:regulation:2k)).
+- 1g) Minden versenyszámnak rendelkeznie kell egy vagy több adattögzítővel.
+    - 1g1) Az adatrögzítő felelős az eredmények rögzítéséért.
+    - 1g2) A pontkártyán szereplő eredményben történő bármely változtatás csak a WCA Delegált engedélyével történhet.
+- 1h) Egy versenyszám egy fordulójában a versenyzők versenyezhetnek egyetlen csoportban vagy több csoportra is oszthatók.
+- 1h+) [AJÁNLÁS] Az azonos csoportba beosztott versenyzőknek ugyanazt a keverést kell kapniuk, míg a nem azonos csoportba beosztott versenyzőknek különbözőt.
+- 1h++) [AJÁNLÁS] Minden versenyszám utolsó fordulójában, csak úgy, mint a Legkevesebb mozdulattal való kirakásnál, a versenyzőknek ugyanazt a keverést kell kapniuk (pl. csak 1 csoport).
+- 1h+++) [ADDITION] Competitors may request to compete at a time different to the scheduled time for the round in a separate group. The WCA Delegate should carefully consider the fairness and practicality of the situation before approving any such requests, and must ensure that such attempts follow [Regulation 9l](regulations:regulation:9l) (i.e. they must start after all competitors have finished their attempts from any previous round of the same event, and finish before any competitor has started an attempt for any following round of the same event). Competitors requesting such accommodations should contact the organization team and WCA Delegate before the competition. Exception: such accommodations are not permitted for 3x3x3 Fewest Moves, which specifies its own limited accommodations in [Regulation E6](regulations:regulation:E6).
+    - 1h1) Egy adott forduló versenyzői nem keverhetnek/bíráskodhatnak az adott fordulóban, a saját csoportjukban, amíg nem bejezték be az összes kirakásukat a fordulóban. Az alábbi esetek kivételek:
+        - 1h1a) A 3x3x3 legkevesebb mozdulattal való kirakás versenyszám esetében a bírók számára engedélyezett, hogy bíráskodjanak abban a csoportban, amelyikben versenyeznek, még mielőtt befejezték a versenyszámukat. (pl. mialatt versenyeznek).
+        - 1h1a+) [PONTOSÍTÁS] Azoknak a bíróknak, akik 3x3x3 legkevesebb mozdulattal versenyszámban bírálnak nem szabad elkezdeni javítani mások próbálkozását ameddig nem fejezték be saját próbálkozásukat. A 60 perces időkorlát lejárta előtt elkezdhetik javítani mások próbálkozását, ha ők maguk korábban adták be próbálkozásukat. (Lásd [Szabályzat E2b+](regulations:regulation:E2b+)). Az ő prbálkozásaikat egy másik bírónak kell javítani.
+        - 1h1b) 3x3x3 több kocka vakon versenyszámban a versenyzők bírálhatnak más versenyzőket miután saját próbálkkozásukat befejezték.
 - 1j) Minden hivatalos személy versenyezhet az adott versenyen.
 - 1k) A hivatalos személyek egyszerre több szerepet is betölthetnek. (pl. szervező, WCA delegált, bíró, adatrögzítő, keverő)
 
